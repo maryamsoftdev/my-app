@@ -1,18 +1,19 @@
-import React from 'react'
+import React from 'react';
+import './styles.css';
 import { Link } from 'react-router-dom';
 const Header = () => {
   return (
     <div>
-    <span>Learning Contex Apis</span>
+    <span className='header'>Learning Context Apis</span>
     <ul className='navbar'>
-        <li className='prod'>
+        <li>
             <Link to="/">Home Page</Link>
         </li>
-        <li className='prod1'>
+        <li>
             <Link to="/Cart">Cart Page</Link>
 
         </li>
-        <li className='prod2'></li>
+        
 
     </ul>
     </div>
