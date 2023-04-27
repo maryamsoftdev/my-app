@@ -5,7 +5,7 @@
     margin: 10px 0;
   }
   
-  .navbar {
+  .nav {
     display: flex;
     list-style: none;
     justify-content: space-around;
@@ -13,14 +13,13 @@
     background-color: black;
     height: 80px;
     margin-top: 0;
-    color: aliceblue;
   }
   
-  .navbar > li {
+  .nav > li {
     color: white;
   }
   
-  .navbar > li:hover {
+  .nav > li:hover {
     color: turquoise;
   }
   
